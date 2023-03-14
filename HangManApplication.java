@@ -1,3 +1,5 @@
+package com.example.hangman;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -8,7 +10,7 @@ public class HangManApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HangManApplication.class.getResource("HangMan.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 500, 570);
+        Scene scene = new Scene(fxmlLoader.load(), 473, 850);
         stage.setTitle("Welcome to the hangman game");
         stage.setScene(scene);
         stage.show();
