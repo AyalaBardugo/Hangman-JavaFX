@@ -1,6 +1,8 @@
 # Hangman Game 
 This repository contains the implementation of a game of Hangman, a guessing game where one player selects a secret word and the other tries to guess the word by suggesting letters. For each incorrect guess, a part of a hangman is drawn. The game ends when the player guesses the word, or the hangman is completed. This implementation of the game uses JavaFX, a popular Java library for building graphical user interfaces.
 
+<img src="https://github.com/AyalaBardugo/Hangman-JavaFX/assets/120474850/6b38184c-b38f-48d2-8616-34de46548cf6" width="400" height="700"/>
+
 ## Requirements
 - Java Development Kit (JDK) 8 or higher.
 - JavaFX 8 or higher.
